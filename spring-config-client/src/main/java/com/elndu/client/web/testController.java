@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class testController
 {
-    @Value("${spring.uname}")
-    private String uname;
+    @Value("${spring.profiles.active}")
+    private String env;
 
-    @GetMapping("/get/uname")
+    @GetMapping("/get/env")
     public String getUname()
     {
-        return this.uname;
+        return this.env;
     }
 }

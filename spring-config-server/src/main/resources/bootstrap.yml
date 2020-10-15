@@ -7,9 +7,6 @@ spring:
     config:
       server:
         git:
-          #≈‰÷√git≤÷ø‚µÿ÷∑
           uri: https://github.com/zhuangjiexian/spring-cloud-config-repo
-          #git≤÷ø‚’À∫≈
           username: username
-          #git≤÷ø‚√‹¬Î
           password: password

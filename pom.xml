@@ -12,6 +12,7 @@
 	<groupId>com.elndu</groupId>
 	<artifactId>spring-config-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
 	<modules>
 		<module>spring-config-server</module>
