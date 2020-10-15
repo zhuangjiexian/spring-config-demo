@@ -3,13 +3,9 @@ server:
 spring:
   application:
     name: spring-config-server
-  cloud:
-    config:
-      server:
-        git:
-          #≈‰÷√git≤÷ø‚µÿ÷∑
-          uri: https://github.com/zhuangjiexian/spring-cloud-config-repo
-          #git≤÷ø‚’À∫≈
-          username: username
-          #git≤÷ø‚√‹¬Î
-          password: password
+
+  data:
+    mongodb:
+      database: test
+      uri: mongodb://username:password@localhost:3717/?authSource=test
+      auto-index-creation: false
